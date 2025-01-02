@@ -1,0 +1,32 @@
+{
+    "window.autoDetectColorScheme": true,
+    "window.commandCenter": false,
+    "window.density.editorTabHeight": "default",
+    "window.zoomLevel": 3,
+    "window.zoomPerWindow": false,
+
+    "workbench.activityBar.location": "hidden",
+    "workbench.colorTheme": "Default Light Modern",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.layoutControl.enabled": false,
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": false,
+
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmUndo": "default",
+    "explorer.enableDragAndDrop": true,
+
+    "extensions.ignoreRecommendations": true,
+
+    "breadcrumbs.enabled": false,
+
+    "editor.wordWrap": "on",
+
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.exclude": { "**/.git": false, "**/.svn": false, "**/.hg": false, "**/CVS": false, "**/.DS_Store": false, "**/Thumbs.db": false },
+
+    "[jsonc]": { "editor.quickSuggestions": { "strings": true }, "editor.suggest.insertMode": "replace", "editor.wordWrap": "off" },
+    "[markdown]": { "editor.unicodeHighlight.ambiguousCharacters": false, "editor.unicodeHighlight.invisibleCharacters": false, "diffEditor.ignoreTrimWhitespace": false, "editor.wordWrap": "off", "editor.quickSuggestions": { "comments": "off", "strings": "off", "other": "off" } }
+}

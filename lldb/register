@@ -1,0 +1,2 @@
+(lldb) register read
+(lldb) register read x0

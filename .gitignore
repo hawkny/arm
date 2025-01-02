@@ -1,0 +1,33 @@
+
+
+build/
+DerivedData/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/xcschemes/*.xcscheme
+!*.xcodeproj/xcshareddata/xcschemes
+*.plist
+
+# ARM Assembly
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# macOS Finder
+.Spotlight-V100
+.Trashes
+.DS_Store

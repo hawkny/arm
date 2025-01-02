@@ -1,0 +1,27 @@
+
+In ARM64 (also known as AArch64) architecture, flags and status registers refer to special registers that hold status information about the result of arithmetic and logical operations performed by the processor. These flags provide important information that allows the processor to make decisions during conditional execution, branching, and other control flow operations.
+
+The most commonly used status flags in ARM64 are:
+
+Negative (N) flag: This flag is set when the result of an operation is negative. Specifically, it takes the value of the most significant bit of the result.
+
+
+Zero (Z) flag: This flag is set when the result of an operation is zero. It is set if all bits of the result are zeros.
+
+
+Carry (C) flag: This flag is set when an operation generates a carry-out or borrow. For example, in addition, if the result overflows the range of the data type, or in subtraction, if the second operand is greater than the first operand, a carry flag is set.
+
+
+Overflow (V) flag: This flag is set when an arithmetic operation results in signed overflow or underflow. It indicates that the result is not representable within the data type being used.
+
+
+These flags are stored in the Processor Status Register (PSR) or sometimes referred to as the Current Program Status Register (CPSR). In AArch64, this register is called "NZCV" and is 32 bits wide. The four flag bits (N, Z, C, V) are part of this register. Additionally, there are other bits in the PSR that control the processor's operating mode, interrupt handling, etc.
+
+When you use instructions that update flags, like "SUBS," the flags are automatically updated based on the result of the operation. This allows you to perform conditional execution of subsequent instructions based on the status of these flags.
+
+For example, you can use conditional branching instructions like "B.EQ" (branch if equal) or "B.NE" (branch if not equal) to decide which code path to take based on the values of the flags.
+
+
+subs x0, x1, x2
+beq label_one       #Branch to 'label_one' if the result is zero (Z flag set)
+bne label_two       #Branch to 'label_two' if the result is not zero (Z flag clear)

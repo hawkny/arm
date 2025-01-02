@@ -1,0 +1,17 @@
+
+
+.text: Indicates the start of the code section.
+
+.global or .globl: Declares a symbol (such as a function or variable) as global, making it visible to other modules or files.
+
+.equ: Defines a constant or assigns a value to a symbol.
+
+
+.include: Includes the contents of another file in the assembly code.
+
+.data: Marks the beginning of a data section where initialized data is defined.
+.bss: Marks the beginning of a section containing uninitialized data.
+
+.word: Reserves space for one or more 32-bit words in the data section.
+.byte: Reserves space for one or more bytes.
+.space: Reserves a specified amount of space (in bytes) in data or bss section.

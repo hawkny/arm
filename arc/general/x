@@ -1,0 +1,7 @@
+
+x29 - fp - frame pointer
+x30 - lr - link register
+x31 - sp - stack pointer
+x32 - pc - program counter
+
+cpsr - current program status register

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:arm/arm.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/eveling/arm/arc/arc.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:lldb/lldb.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:arith/arith.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:arithmetic/arithmetic.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:duality/duality.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:function/function.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:branch/branch.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:hello/hello.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,4 @@
+(lldb) v
+(lldb) va
+(lldb) var
+(lldb) var <variable name>
